@@ -3,25 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Book Haven - Find Your Next Read</title>
+    <title>Book Haven - Humayun Ahmed Collection</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;600;700;800&family=Righteous&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Header Section -->
+    <!-- Header with Navigation -->
     <header>
         <div class="container">
             <div class="logo">
-                <i class="fas fa-book-open"></i>
-                <h1>Book Haven</h1>
+                <a href="index.html">
+                    <i class="fas fa-book-open"></i>
+                    <h1>হুমায়ূন আহমেদ সমগ্র</h1>
+                </a>
             </div>
             <nav>
                 <ul>
-                    <li><a href="#" class="active">Home</a></li>
-                    <li><a href="#featured">Featured Books</a></li>
-                    <li><a href="#categories">Categories</a></li>
-                    <li><a href="#about">About</a></li>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="fantasy.html">Fantasy</a></li>
+                    <li><a href="scifi.html">Sci-Fi</a></li>
+                    <li><a href="mystery.html">Mystery</a></li>
+                    <li><a href="romance.html">Romance</a></li>
                 </ul>
             </nav>
             <div class="theme-toggle">
@@ -36,9 +39,9 @@
     <section class="hero">
         <div class="container">
             <div class="hero-content">
-                <h2>Discover Your Next Favorite Book</h2>
-                <p>Browse our curated collection of must-read books across all genres. Find recommendations, summaries, and where to buy or borrow.</p>
-                <a href="#featured" class="btn">Explore Books</a>
+                <h2>হুমায়ূন আহমেদের বইসমূহ</h2>
+                <p>বাংলা সাহিত্যের কিংবদন্তি লেখক হুমায়ূন আহমেদের সমস্ত বই এক জায়গায়। খুঁজে নিন আপনার প্রিয় বই।</p>
+                <a href="#featured-books" class="btn">বই ব্রাউজ করুন</a>
             </div>
             <div class="hero-image">
                 <i class="fas fa-book-reader"></i>
@@ -47,60 +50,56 @@
     </section>
 
     <!-- Featured Books Section -->
-    <section id="featured" class="featured-books">
+    <section id="featured-books" class="featured-books">
         <div class="container">
-            <h2 class="section-title">Featured Books</h2>
+            <h2 class="section-title">প্রধান বইসমূহ</h2>
             <div class="books-grid">
-                <!-- Book 1 -->
                 <div class="book-card">
                     <div class="book-cover">
-                        <i class="fas fa-book"></i>
+                        <img src="https://via.placeholder.com/180x260/4a6bff/ffffff?text=অপেক্ষা" alt="অপেক্ষা">
                     </div>
                     <div class="book-info">
-                        <h3>The Silent Echo</h3>
-                        <p class="book-author">By Alex Morgan</p>
-                        <p class="book-desc">A psychological thriller about a woman who hears voices from the past.</p>
-                        <div class="book-genre">Thriller</div>
-                        <a href="#" class="book-link">Find This Book</a>
+                        <h3>অপেক্ষা</h3>
+                        <p class="book-author">হুমায়ূন আহমেদ</p>
+                        <p class="book-desc">একটি প্রেমের গল্প যা সময়ের সীমানা পেরিয়ে চলে যায়।</p>
+                        <div class="book-genre">উপন্যাস</div>
+                        <a href="https://heyzine.com/flip-book/197fe6e70b.html" target="_blank" class="book-link">বই পড়ুন</a>
                     </div>
                 </div>
-                <!-- Book 2 -->
                 <div class="book-card">
                     <div class="book-cover">
-                        <i class="fas fa-book"></i>
+                        <img src="https://via.placeholder.com/180x260/6b48ff/ffffff?text=মিসির আলি" alt="মিসির আলি">
                     </div>
                     <div class="book-info">
-                        <h3>Beyond the Stars</h3>
-                        <p class="book-author">By Sarah Chen</p>
-                        <p class="book-desc">An epic space adventure exploring humanity's place in the universe.</p>
-                        <div class="book-genre">Science Fiction</div>
-                        <a href="#" class="book-link">Find This Book</a>
+                        <h3>মিসির আলি সমগ্র</h3>
+                        <p class="book-author">হুমায়ূন আহমেদ</p>
+                        <p class="book-desc">মনস্তাত্ত্বিক থ্রিলার ও রহস্যের সমাহার।</p>
+                        <div class="book-genre">থ্রিলার</div>
+                        <a href="https://heyzine.com/flip-book/36500c0f66.html" target="_blank" class="book-link">বই পড়ুন</a>
                     </div>
                 </div>
-                <!-- Book 3 -->
                 <div class="book-card">
                     <div class="book-cover">
-                        <i class="fas fa-book"></i>
+                        <img src="https://via.placeholder.com/180x260/ff6b6b/ffffff?text=নন্দিত নরকে" alt="নন্দিত নরকে">
                     </div>
                     <div class="book-info">
-                        <h3>The Forgotten Garden</h3>
-                        <p class="book-author">By Marcus Lee</p>
-                        <p class="book-desc">A magical realism story about a garden that holds ancient secrets.</p>
-                        <div class="book-genre">Fantasy</div>
-                        <a href="#" class="book-link">Find This Book</a>
+                        <h3>নন্দিত নরকে</h3>
+                        <p class="book-author">হুমায়ূন আহমেদ</p>
+                        <p class="book-desc">প্রথম উপন্যাস যা বাংলা সাহিত্যে নতুন ধারা সৃষ্টি করে।</p>
+                        <div class="book-genre">উপন্যাস</div>
+                        <a href="https://heyzine.com/flip-book/b4a3d63030.html" target="_blank" class="book-link">বই পড়ুন</a>
                     </div>
                 </div>
-                <!-- Book 4 -->
                 <div class="book-card">
                     <div class="book-cover">
-                        <i class="fas fa-book"></i>
+                        <img src="https://via.placeholder.com/180x260/4fc3a1/ffffff?text=বৃষ্টি বিলাস" alt="বৃষ্টি বিলাস">
                     </div>
                     <div class="book-info">
-                        <h3>Echoes of War</h3>
-                        <p class="book-author">By James Peterson</p>
-                        <p class="book-desc">Historical fiction set during World War II, following three intertwined lives.</p>
-                        <div class="book-genre">Historical Fiction</div>
-                        <a href="#" class="book-link">Find This Book</a>
+                        <h3>বৃষ্টি বিলাস</h3>
+                        <p class="book-author">হুমায়ূন আহমেদ</p>
+                        <p class="book-desc">বৃষ্টির দিনের গল্প ও মনস্তাত্ত্বিক অনুভূতি।</p>
+                        <div class="book-genre">গল্পসংগ্রহ</div>
+                        <a href="https://heyzine.com/flip-book/1a2e8c1868.html" target="_blank" class="book-link">বই পড়ুন</a>
                     </div>
                 </div>
             </div>
@@ -108,58 +107,47 @@
     </section>
 
     <!-- Categories Section -->
-    <section id="categories" class="categories">
+    <section class="categories">
         <div class="container">
-            <h2 class="section-title">Browse by Category</h2>
+            <h2 class="section-title">বইয়ের ধরণ</h2>
             <div class="categories-grid">
-                <div class="category-card">
-                    <i class="fas fa-dragon"></i>
-                    <h3>Fantasy</h3>
-                    <p>Magic, mythical creatures, epic quests</p>
-                </div>
-                <div class="category-card">
+                <a href="fantasy.html" class="category-card">
+                    <i class="fas fa-magic"></i>
+                    <h3>কল্পকাহিনী</h3>
+                    <p>ম্যাজিক রিয়ালিজম ও কল্পবিজ্ঞান</p>
+                    <span class="book-count">১২টি বই</span>
+                </a>
+                <a href="scifi.html" class="category-card">
                     <i class="fas fa-rocket"></i>
-                    <h3>Sci-Fi</h3>
-                    <p>Future tech, space exploration, aliens</p>
-                </div>
-                <div class="category-card">
+                    <h3>বিজ্ঞান কল্পকাহিনী</h3>
+                    <p>ভবিষ্যত প্রযুক্তি ও বৈজ্ঞানিক রহস্য</p>
+                    <span class="book-count">৮টি বই</span>
+                </a>
+                <a href="mystery.html" class="category-card">
                     <i class="fas fa-user-secret"></i>
-                    <h3>Mystery</h3>
-                    <p>Crime, detective stories, whodunits</p>
-                </div>
-                <div class="category-card">
+                    <h3>রহস্য উপন্যাস</h3>
+                    <p>থ্রিলার ও অপরাধ কাহিনী</p>
+                    <span class="book-count">১৫টি বই</span>
+                </a>
+                <a href="romance.html" class="category-card">
                     <i class="fas fa-heart"></i>
-                    <h3>Romance</h3>
-                    <p>Love stories, relationships, emotional journeys</p>
-                </div>
-                <div class="category-card">
-                    <i class="fas fa-landmark"></i>
-                    <h3>Historical</h3>
-                    <p>Stories set in the past, based on real events</p>
-                </div>
-                <div class="category-card">
-                    <i class="fas fa-theater-masks"></i>
-                    <h3>Drama</h3>
-                    <p>Character-driven stories, emotional conflicts</p>
-                </div>
+                    <h3>রোমান্টিক উপন্যাস</h3>
+                    <p>প্রেম ও সম্পর্কের গল্প</p>
+                    <span class="book-count">১০টি বই</span>
+                </a>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="about">
+    <!-- Search Section -->
+    <section class="search-section">
         <div class="container">
-            <h2 class="section-title">About Book Haven</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>Welcome to Book Haven, your digital sanctuary for discovering great books. We believe that every person has a story waiting to be discovered between the pages of a book.</p>
-                    <p>Our mission is to help readers find their next favorite book without the hassle of searching through countless options. We curate collections based on genre, popularity, and reader recommendations.</p>
-                    <p>While we don't host or upload books directly, we provide information on where to find them - whether through local libraries, bookstores, or legitimate online platforms.</p>
-                </div>
-                <div class="about-image">
-                    <i class="fas fa-bookmark"></i>
-                </div>
+            <h2 class="section-title">বই খুঁজুন</h2>
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="বইয়ের নাম লিখুন...">
+                <button id="searchButton"><i class="fas fa-search"></i></button>
             </div>
+            <div id="searchResults" class="search-results"></div>
         </div>
     </section>
 
@@ -169,26 +157,27 @@
             <div class="footer-content">
                 <div class="footer-logo">
                     <i class="fas fa-book-open"></i>
-                    <h3>Book Haven</h3>
-                    <p>Find your next great read</p>
+                    <h3>হুমায়ূন আহমেদ সমগ্র</h3>
+                    <p>বাংলা সাহিত্যের শ্রেষ্ঠ লেখকের বইসমূহ</p>
                 </div>
                 <div class="footer-links">
-                    <h4>Quick Links</h4>
+                    <h4>লিঙ্কসমূহ</h4>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#featured">Featured Books</a></li>
-                        <li><a href="#categories">Categories</a></li>
-                        <li><a href="#about">About Us</a></li>
+                        <li><a href="index.html">হোম</a></li>
+                        <li><a href="fantasy.html">কল্পকাহিনী</a></li>
+                        <li><a href="scifi.html">বিজ্ঞান কল্পকাহিনী</a></li>
+                        <li><a href="mystery.html">রহস্য উপন্যাস</a></li>
+                        <li><a href="romance.html">রোমান্টিক উপন্যাস</a></li>
                     </ul>
                 </div>
                 <div class="footer-contact">
-                    <h4>Contact</h4>
-                    <p><i class="fas fa-envelope"></i> info@bookhaven.example.com</p>
-                    <p><i class="fas fa-globe"></i> www.bookhaven.example.com</p>
+                    <h4>যোগাযোগ</h4>
+                    <p><i class="fas fa-envelope"></i> info@humayunahmedbooks.com</p>
+                    <p><i class="fas fa-globe"></i> www.humayunahmedbooks.com</p>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2023 Book Haven. This is a sample static website for GitHub Pages.</p>
+                <p>&copy; 2024 হুমায়ূন আহমেদ সমগ্র. সমস্ত অধিকার সংরক্ষিত.</p>
             </div>
         </div>
     </footer>
