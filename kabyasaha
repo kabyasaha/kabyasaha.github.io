@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Haven - Find Your Next Read</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-book-open"></i>
+                <h1>Book Haven</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#featured">Featured Books</a></li>
+                    <li><a href="#categories">Categories</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </nav>
+            <div class="theme-toggle">
+                <button id="themeButton">
+                    <i class="fas fa-moon"></i> <span id="themeText">Night Mode</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Discover Your Next Favorite Book</h2>
+                <p>Browse our curated collection of must-read books across all genres. Find recommendations, summaries, and where to buy or borrow.</p>
+                <a href="#featured" class="btn">Explore Books</a>
+            </div>
+            <div class="hero-image">
+                <i class="fas fa-book-reader"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Books Section -->
+    <section id="featured" class="featured-books">
+        <div class="container">
+            <h2 class="section-title">Featured Books</h2>
+            <div class="books-grid">
+                <!-- Book 1 -->
+                <div class="book-card">
+                    <div class="book-cover">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <div class="book-info">
+                        <h3>The Silent Echo</h3>
+                        <p class="book-author">By Alex Morgan</p>
+                        <p class="book-desc">A psychological thriller about a woman who hears voices from the past.</p>
+                        <div class="book-genre">Thriller</div>
+                        <a href="#" class="book-link">Find This Book</a>
+                    </div>
+                </div>
+                <!-- Book 2 -->
+                <div class="book-card">
+                    <div class="book-cover">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <div class="book-info">
+                        <h3>Beyond the Stars</h3>
+                        <p class="book-author">By Sarah Chen</p>
+                        <p class="book-desc">An epic space adventure exploring humanity's place in the universe.</p>
+                        <div class="book-genre">Science Fiction</div>
+                        <a href="#" class="book-link">Find This Book</a>
+                    </div>
+                </div>
+                <!-- Book 3 -->
+                <div class="book-card">
+                    <div class="book-cover">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <div class="book-info">
+                        <h3>The Forgotten Garden</h3>
+                        <p class="book-author">By Marcus Lee</p>
+                        <p class="book-desc">A magical realism story about a garden that holds ancient secrets.</p>
+                        <div class="book-genre">Fantasy</div>
+                        <a href="#" class="book-link">Find This Book</a>
+                    </div>
+                </div>
+                <!-- Book 4 -->
+                <div class="book-card">
+                    <div class="book-cover">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <div class="book-info">
+                        <h3>Echoes of War</h3>
+                        <p class="book-author">By James Peterson</p>
+                        <p class="book-desc">Historical fiction set during World War II, following three intertwined lives.</p>
+                        <div class="book-genre">Historical Fiction</div>
+                        <a href="#" class="book-link">Find This Book</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section id="categories" class="categories">
+        <div class="container">
+            <h2 class="section-title">Browse by Category</h2>
+            <div class="categories-grid">
+                <div class="category-card">
+                    <i class="fas fa-dragon"></i>
+                    <h3>Fantasy</h3>
+                    <p>Magic, mythical creatures, epic quests</p>
+                </div>
+                <div class="category-card">
+                    <i class="fas fa-rocket"></i>
+                    <h3>Sci-Fi</h3>
+                    <p>Future tech, space exploration, aliens</p>
+                </div>
+                <div class="category-card">
+                    <i class="fas fa-user-secret"></i>
+                    <h3>Mystery</h3>
+                    <p>Crime, detective stories, whodunits</p>
+                </div>
+                <div class="category-card">
+                    <i class="fas fa-heart"></i>
+                    <h3>Romance</h3>
+                    <p>Love stories, relationships, emotional journeys</p>
+                </div>
+                <div class="category-card">
+                    <i class="fas fa-landmark"></i>
+                    <h3>Historical</h3>
+                    <p>Stories set in the past, based on real events</p>
+                </div>
+                <div class="category-card">
+                    <i class="fas fa-theater-masks"></i>
+                    <h3>Drama</h3>
+                    <p>Character-driven stories, emotional conflicts</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Book Haven</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Welcome to Book Haven, your digital sanctuary for discovering great books. We believe that every person has a story waiting to be discovered between the pages of a book.</p>
+                    <p>Our mission is to help readers find their next favorite book without the hassle of searching through countless options. We curate collections based on genre, popularity, and reader recommendations.</p>
+                    <p>While we don't host or upload books directly, we provide information on where to find them - whether through local libraries, bookstores, or legitimate online platforms.</p>
+                </div>
+                <div class="about-image">
+                    <i class="fas fa-bookmark"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-book-open"></i>
+                    <h3>Book Haven</h3>
+                    <p>Find your next great read</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#featured">Featured Books</a></li>
+                        <li><a href="#categories">Categories</a></li>
+                        <li><a href="#about">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p><i class="fas fa-envelope"></i> info@bookhaven.example.com</p>
+                    <p><i class="fas fa-globe"></i> www.bookhaven.example.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Book Haven. This is a sample static website for GitHub Pages.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
